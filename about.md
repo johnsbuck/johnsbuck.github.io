@@ -3,5 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+My name is **John Bucknam**, and I am a CS graduate student.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+![profile](/img/profile.jpg){: height="240px" width="240px"
+  style="margin: 0 auto; display: block;" border="2"}
