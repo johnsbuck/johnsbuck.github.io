@@ -1,77 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>John Bucknam</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-  </head>
-  <body>
-    <!--Navigation Bar-->
-    <nav class="navbar navbar-inverse">
-      <div class="container">
-        <div class="navbar-header">
-          <ul class="nav navbar-nav">
-            <!--Brand-->
-            <li>
-              <a class="navbar-brand" href="index.html">John Bucknam</a>
-            </li>
-            <!--Links-->
-            <li class="active">
-              <a href="index.html">
-                <div class="glyphicon glyphicon-home"></div>
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="projects.html">
-                <div class="glyphicon glyphicon-file"></div>
-                Projects
-              </a>
-            </li>
-            <li>
-              <a href="about.html">
-                <div class="glyphicon glyphicon-user"></div>
-                About
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="well well-lg">
-            <h2>Welcome</h2>
-            <p>
-              This site contains details on my current repositories, projects,
-              and more. More details will be given as more development is done
-              on the site.
-            </p>
-          </div>
-      </div>
-      <div class="col-md-6">
-        <div class="well well-lg">
-          <h2>Current Site Development</h2>
-          <p>
-            Currently developing using Bootstrap 3. Planning on adding more
-            features with more time.
-          </p>
-          <p>
-            <b>Such development includes:</b> <!-- Replace with CSS-->
-            <ul>
-              <li>
-                JavaScript & JQuery development for a more dynamic website.
-                This is will also aid in less reused html that will have needed
-                to be revised.
-              </li>
-              <li>
-                Better web design, CSS, & quality overall (primarily color scheme)
-              </li>
-            </ul>
-          </p>
-        </div>
-    </div>
-  </div>
-  </body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts reversed %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

@@ -1,0 +1,24 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: John Bucknam
+email: jbuck594@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hi, my name is John Bucknam and I am a CS graduate student.
+  This site is used to describe different projects that I am currently
+  working on as well as different topics and ideas that I will be posting
+  over time.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.jbucknam.com" # the base hostname & protocol for your site
+twitter_username: redsteamengine
+github_username:  johnsbuck
+linkedin_username: jbucknam
+facebook_username: jbuck594
+
+# Build settings
+markdown: kramdown
