@@ -15,10 +15,8 @@ description: > # this means to ignore newlines until "baseurl:"
   over time.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jbucknam.com" # the base hostname & protocol for your site
-twitter_username: redsteamengine
 github_username:  johnsbuck
 linkedin_username: jbucknam
-facebook_username: jbuck594
 
 # Build settings
 markdown: kramdown
