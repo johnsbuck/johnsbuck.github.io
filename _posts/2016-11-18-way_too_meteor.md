@@ -3,6 +3,7 @@ layout: post
 title: Way Too Meteor
 categories: update hackprinceton
 description: A small project that was made for HackPrinceton Spring 2016 using Three.JS.
+comments: true
 ---
 
 [comment]: Begin
