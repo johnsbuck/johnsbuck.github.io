@@ -59,8 +59,12 @@ while i < len(X):
 ```
 
 After removing any invalid data vectors, we then used [Feature Scaling](https://en.wikipedia.org/wiki/Feature_scaling "Standardization Post?")
-to simplify our mass to be ranged from 0 to 1, thereby allowing a basic magnitude for representing each point when visualizing on our globe.
-However, feature scaling alone can still leave problems.
+to simplify our mass to be ranged from 0 to 1, thereby allowing a bounded magnitude to represent each point when visualizing on our globe.
+In our case, we used the formula below:
+
+\\[x' = \frac{x-X_{\text{min}}}{X_{\text{max}}-X_{\text{min}}}\\]
+
+Where $$x \in X$$. However, feature scaling alone can still leave problems.
 
 
 # Fixing the Skew
@@ -197,7 +201,8 @@ presentable fashion. We would also like to make the points into circles instead 
 We'd also like to add some major features, including referencing these meteorites to other web data by clicking
 on the individual point and populating the data using some Google Search API or Amazon's
 [Common Crawl](https://aws.amazon.com/public-datasets/common-crawl/ "Over 2 billion web pages viewed...").
-We'd also like to have basic data, such as mass and geo-location, visible when hovering over individual points.
+We'd also like to have ba<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+sic data, such as mass and geo-location, visible when hovering over individual points.
 
 # Conclusion
 
@@ -219,3 +224,13 @@ the time, space, and food while we were able to work on our personal projects.
 [new_masses]: /img/way-too-meteor/new_masses.png "I love math."
 [globe]: /img/way-too-meteor/globe_snap.png "This is either incredibly cool or anti-climatic."
 [close_up]: /img/way-too-meteor/globe_close.png "The resolution of the Earth is 16k, in case you were wondering."
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
