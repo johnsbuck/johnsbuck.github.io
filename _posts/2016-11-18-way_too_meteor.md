@@ -11,7 +11,7 @@ description: A small project that was made for HackPrinceton Spring 2016 using T
 
 # Story
 
-Last weekend, a buddy and I decided to go up to HackPrinceton and hack our way til Monday.
+Last weekend, a buddy and I decided to go up to HackPrinceton and hack our way til Sunday.
 We didn't care about the prizes, although we did take every possible piece of swag avaible.
 Instead, we simply practiced what we considered to be a necessary skill for us to work on,
 *<span title="We both work in data analytics.">data visualization</span>*.
