@@ -14,5 +14,5 @@ I am currently researching and developing neural networks for different
 applications, such as stock prediction, for my Masters Thesis. For any
 particular questions on my work experience, please reference my resume below.
 
-* [Resume](/doc/resume.pdf)
+* [Resume](/assets/doc/resume.pdf)
 * [CV (coming soon)]()
