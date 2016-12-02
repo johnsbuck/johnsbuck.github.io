@@ -1,22 +1,37 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: John Bucknam
+subtitle: Website
 email: jbuck594@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hi, my name is John Bucknam and I am a CS graduate student.
-  This site is used to describe different projects that I am currently
-  working on as well as different topics and ideas that I will be posting
-  over time.
+description: A website for my portfolio & blog.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.jbucknam.com" # the base hostname & protocol for your site
-github_username:  johnsbuck
-linkedin_username: jbucknam
+url: "https://johnsbuck.github.io" # the base hostname & protocol for your site
+author:
+#street_address: 1234 Somewhere Road
+#city: Nashville
+#state: TN
+#zip_code: 55555
+#country: United States of America
+#phone: (716) 555-5555
+
+# Homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
+
+# Social settings
+500px_url:
+#facebook_url:
+github_url: https://github.com/johnsbuck
+#gitlab_url: https://gitlab.com/johnsbuck
+googleplus_url:
+instagram_url:
+linkedin_url: https://www.linkedin.com/in/jbucknam
+pinterest_url:
+slack_url:
+twitter_url:
 
 # Build settings
 markdown: kramdown
+
+sass:
+    sass_dir: _sass
+    style: compressed

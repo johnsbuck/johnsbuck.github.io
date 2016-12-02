@@ -3,6 +3,7 @@ layout: post
 title: Way Too Meteor
 categories: update hackprinceton
 description: A small project that was made for HackPrinceton Spring 2016 using Three.JS.
+author: John Bucknam
 comments: true
 ---
 
@@ -72,7 +73,9 @@ Where $$x \in X$$. However, feature scaling alone can still leave problems.
 
 Below is the original mass after being scaled and sorted in ascending order.
 
-![alt text][orig_mass]
+<span class="image main" markdown="1">
+  ![alt text][orig_mass]
+</span>
 
 That isn't good.
 
@@ -119,7 +122,10 @@ After some experimentation, we received the following graph, with the following 
 3. Red: ln(ln(orig_mass))
 4. Blue: A straight line (y=x)
 
-![alt text][new_masses]
+
+<span class="image main" markdown="1">
+  ![alt text][new_masses]
+</span>
 
 After looking at these and other figures, we chose the purple line (the natural log of the original mass)
 as it was the closest to our original mass compared to the other two lines, but also gave each point a stronger value.
@@ -157,13 +163,18 @@ DAT.Globe = function(container, opts) {
 
 From those small changes we were able to produce these points:
 
-![alt text][globe]
+<span class="image main" markdown="1">
+  ![alt text][globe]
+</span>
 
 As you can see from the image below, each point has a corresponding size and color.
 The magnitude of each data vector inserted represent the area and color of their own distinct point.
 As of this post, our gradient goes from yellow (low mass) to green & blue (mid-mass) to red (high mass).
 
-![alt text][close_up]
+
+<span class="image main" markdown="1">
+  ![alt text][close_up]
+</span>
 
 # Details
 
@@ -221,10 +232,10 @@ the time, space, and food while we were able to work on our personal projects.
 
 [comment]: References
 
-[orig_mass]: /img/way-too-meteor/original_mass.png "Possibly one of the most skewed datasets I've ever seen."
-[new_masses]: /img/way-too-meteor/new_masses.png "I love math."
-[globe]: /img/way-too-meteor/globe_snap.png "This is either incredibly cool or anti-climatic."
-[close_up]: /img/way-too-meteor/globe_close.png "The resolution of the Earth is 16k, in case you were wondering."
+[orig_mass]: /assets/img/way-too-meteor/original_mass.png "Possibly one of the most skewed datasets I've ever seen."
+[new_masses]: /assets/img/way-too-meteor/new_masses.png "I love math."
+[globe]: /assets/img/way-too-meteor/globe_snap.png "This is either incredibly cool or anti-climatic."
+[close_up]: /assets/img/way-too-meteor/globe_close.png "The resolution of the Earth is 16k, in case you were wondering."
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 <script type="text/x-mathjax-config">

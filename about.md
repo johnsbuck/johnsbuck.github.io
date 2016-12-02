@@ -1,11 +1,13 @@
 ---
-layout: page
 title: About
-permalink: /about/
+layout: about
+description: 'A small description of myself with other references'
+nav-menu: true
 ---
+
 My name is **John Bucknam**, and I am a CS graduate student at Rowan University.
 
-![profile](/img/profile.jpg){: height="240px" width="240px"
+![profile](/assets/img/profile.jpg){: height="240px" width="240px"
   style="margin: 0 auto; display: block;" border="2"}
 
 I am currently researching and developing neural networks for different

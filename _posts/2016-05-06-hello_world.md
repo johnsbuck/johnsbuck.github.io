@@ -3,6 +3,7 @@ layout: post
 title: Hello World
 categories: introduction general
 description: An introduction to the website as well as plans for the future.
+author: John Bucknam
 comments: true
 ---
 # Update
