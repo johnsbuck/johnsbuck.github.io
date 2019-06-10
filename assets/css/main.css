@@ -2217,6 +2217,13 @@ pre {
 			top: 0.25em;
 		}
 
+    .image.center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
 		.image.right {
 			float: right;
 			margin: 0 0 1.25em 1.5em;
